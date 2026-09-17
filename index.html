@@ -588,13 +588,13 @@
         type="text" 
         id="appSearchInput" 
         class="search-input" 
-        placeholder="Search policies by app name, feature, or package name (e.g. AppLock, vault)..." 
+        placeholder="Search policies by app name, feature, or package name (e.g. AppLock, WealthWisp, vault)..." 
         onkeyup="filterApps()" 
       />
     </div>
     <div class="search-meta">
       <span>Browse individual policies for each application below:</span>
-      <span class="results-count" id="resultsCount">Showing 1 application</span>
+      <span class="results-count" id="resultsCount">Showing 2 applications</span>
     </div>
   </div>
 
@@ -636,6 +636,46 @@
           Open Policy <span>→</span>
         </a>
         <button class="btn btn-secondary" onclick="openPreview('applock.html', 'AppLock — Privacy Policy &amp; Terms')">
+          Quick Preview
+        </button>
+      </div>
+    </article>
+
+    <!-- ======================================================== -->
+    <!-- APP CARD 2: WEALTHWISP                                   -->
+    <!-- ======================================================== -->
+    <article class="app-card" data-keywords="wealthwisp finance budget expense income tracker money fintrack personal finance com.rn.namoksha.wealthwisp">
+      <div class="app-card-header">
+        <div class="app-avatar">
+          <img src="assets/wealthwisp_icon.png" alt="WealthWisp Icon" />
+        </div>
+        <div class="app-title-group">
+          <h2>WealthWisp</h2>
+          <a href="https://play.google.com/store/apps/details?id=com.rn.namoksha.wealthwisp" target="_blank" rel="noopener" class="package-badge" style="text-decoration: none;" title="Open in Google Play Store">com.rn.namoksha.wealthwisp ↗</a>
+        </div>
+      </div>
+
+      <div class="app-badges">
+        <span class="pill verified">100% On-Device</span>
+        <span class="pill">Offline First</span>
+        <span class="pill date">Updated: Sept 2026</span>
+      </div>
+
+      <p class="app-description">
+        Smart personal finance tracker, expense &amp; income manager, and budget planner built with private, 100% on-device local database storage.
+      </p>
+
+      <div class="app-specs">
+        <div><strong>Storage:</strong> 100% Local Sandboxed (Zero Server Sync)</div>
+        <div><strong>Key Permissions:</strong> Internet, Network State</div>
+        <div><strong>SDKs:</strong> Google AdMob, Firebase Analytics &amp; Crashlytics, Play Billing</div>
+      </div>
+
+      <div class="card-actions">
+        <a href="wealthwisp.html" class="btn btn-primary">
+          Open Policy <span>→</span>
+        </a>
+        <button class="btn btn-secondary" onclick="openPreview('wealthwisp.html', 'WealthWisp — Privacy Policy &amp; Terms')">
           Quick Preview
         </button>
       </div>

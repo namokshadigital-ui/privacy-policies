@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>WealthWisp — Privacy Policy, Terms of Use &amp; Data Safety</title>
+<meta name="description" content="Official Privacy Policy, Terms of Use, and Google Play Data Safety Disclosures for WealthWisp published by Namoksha Digital." />
+<meta name="theme-color" content="#0D0F12" />
+<link rel="icon" type="image/png" href="assets/wealthwisp_icon.png" />
+<style>
+  :root {
+    --blue: #9FB0C4;
+    --blue-dark: #CBD0D7;
+    --blue-light: #2A313C;
+    --text: #F4F6F9;
+    --muted: rgba(244, 246, 249, 0.6);
+    --surface: #1A1D23;
+    --border: rgba(255, 255, 255, 0.12);
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0D0F12;
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, #181B21 0%, #2A313C 60%, #5C7796 100%);
+    color: #fff;
+    padding: 48px 24px 36px;
+    text-align: center;
+  }
+  .header-icon {
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    margin-bottom: 20px;
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.08);
+  }
+  header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; }
+  header p  { font-size: 0.95rem; opacity: 0.85; margin-top: 6px; }
+  .badge-row {
+    display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;
+    margin-top: 18px;
+  }
+  .badge {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+    padding: 5px 14px;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+
+  /* ── Layout ── */
+  main { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; }
+
+  /* ── TOC ── */
+  .toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+    margin-bottom: 32px;
+  }
+  .toc h2 { font-size: 1rem; font-weight: 700; margin-bottom: 12px; color: var(--blue); }
+  .toc ol { padding-left: 20px; }
+  .toc li { margin: 5px 0; }
+  .toc a  { color: var(--blue); text-decoration: none; font-size: 0.9rem; }
+  .toc a:hover { text-decoration: underline; }
+
+  /* ── Cards ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 30px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    font-size: 1.15rem; font-weight: 800;
+    color: var(--blue-dark);
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--blue-light);
+  }
+  .card h2 .icon { font-size: 1.3rem; }
+  .card h3 {
+    font-size: 0.97rem; font-weight: 700;
+    color: var(--text);
+    margin: 18px 0 6px;
+  }
+  p  { margin-bottom: 10px; font-size: 0.93rem; color: var(--text); }
+  ul, ol { margin: 8px 0 12px 20px; }
+  li { font-size: 0.93rem; margin-bottom: 5px; color: var(--text); }
+  strong { color: var(--blue-dark); }
+
+  /* ── Info boxes ── */
+  .info-box {
+    background: var(--blue-light);
+    border-left: 4px solid var(--blue);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    margin: 14px 0;
+    font-size: 0.88rem;
+    color: var(--text);
+  }
+  .warn-box {
+    background: rgba(224, 162, 74, 0.15); /* BudgetWarn dark approx */
+    border-left: 4px solid #E0A24A;
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    margin: 14px 0;
+    font-size: 0.88rem;
+    color: #E0A24A;
+  }
+
+  /* ── Service table ── */
+  table {
+    width: 100%; border-collapse: collapse;
+    margin: 14px 0; font-size: 0.88rem;
+  }
+  thead th {
+    background: var(--blue-light); color: var(--blue-dark);
+    padding: 10px 12px; text-align: left; font-weight: 700;
+    border-bottom: 2px solid var(--blue);
+  }
+  tbody tr:nth-child(odd) { background: rgba(255,255,255,0.02); }
+  tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tbody td a { color: var(--blue); }
+
+  /* ── Rights grid ── */
+  .rights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+    margin: 14px 0;
+  }
+  .right-item {
+    background: var(--blue-light);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .right-item .r-icon { font-size: 1.4rem; margin-bottom: 6px; }
+  .right-item strong { display: block; font-size: 0.88rem; color: var(--blue-dark); }
+  .right-item span   { font-size: 0.82rem; color: var(--muted); }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center;
+    padding: 28px 16px;
+    font-size: 0.82rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 12px;
+  }
+  footer a { color: var(--blue); }
+
+  @media (max-width: 540px) {
+    header h1 { font-size: 1.5rem; }
+    .card { padding: 20px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div style="background: rgba(13, 14, 31, 0.9); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100;">
+  <a href="index.html" style="color: #818CF8; text-decoration: none; font-size: 0.88rem; font-weight: 600; display: inline-flex; align-items: center; gap: 8px;">
+    <img src="assets/company_icon.png" alt="Company Logo" style="width: 22px; height: 22px; border-radius: 6px; object-fit: cover; vertical-align: middle;" />
+    ← All Namoksha Digital Apps
+  </a>
+  <span style="font-size: 0.82rem; color: #94A3B8; display: inline-flex; align-items: center; gap: 6px;">
+    <img src="assets/company_icon.png" alt="" style="width: 16px; height: 16px; border-radius: 4px; object-fit: cover;" />
+    Namoksha Digital
+  </span>
+</div>
+
+<header>
+  <img class="header-icon" src="assets/wealthwisp_icon.png" alt="WealthWisp Icon" />
+  <h1>WealthWisp</h1>
+  <p>Personal Finance &amp; Budget Tracker — Privacy Policy &amp; Terms of Use</p>
+  <div class="badge-row">
+    <span class="badge" style="border-color: rgba(16, 185, 129, 0.4); background: rgba(16, 185, 129, 0.12); color: #34D399;">✓ 100% On-Device Local Storage</span>
+    <span class="badge" style="border-color: rgba(6, 182, 212, 0.4); background: rgba(6, 182, 212, 0.12); color: #38BDF8;">✓ Google Play Data Safety Certified</span>
+    <span class="badge">GDPR / CCPA / DPDP Compliant</span>
+    <span class="badge">Last Updated: September 2026</span>
+  </div>
+</header>
+
+<main>
+
+  <div class="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#data-collected">Data We Collect</a></li>
+      <li><a href="#how-we-use">How We Use Your Data</a></li>
+      <li><a href="#third-party">Third-Party Services</a></li>
+      <li><a href="#permissions">App Permissions</a></li>
+      <li><a href="#data-sharing">Data Sharing &amp; Disclosure</a></li>
+      <li><a href="#retention">Data Retention</a></li>
+      <li><a href="#gdpr">Your Rights (GDPR)</a></li>
+      <li><a href="#ccpa">California Privacy Rights (CCPA)</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#security">Data Security</a></li>
+      <li><a href="#terms">Terms of Use</a></li>
+      <li><a href="#changes">Changes to This Policy</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </div>
+
+  <!-- 1. Overview -->
+  <div class="card" id="overview">
+    <h2><span class="icon">📋</span> 1. Overview</h2>
+    <p>
+      Welcome to <strong>WealthWisp — Personal Finance Tracker &amp; Budget Manager</strong> (package name: <code>com.rn.namoksha.wealthwisp</code>),
+      developed and published by <strong>Namoksha Digital</strong> ("we", "our", or "us"). Available on <a href="https://play.google.com/store/apps/details?id=com.rn.namoksha.wealthwisp" target="_blank" rel="noopener" style="color: var(--blue);">Google Play Store</a>. This Privacy Policy explains how we collect,
+      use, disclose, and safeguard your information when you use our Android application.
+    </p>
+    <p>
+      WealthWisp is a personal finance app that helps you track your income, expenses, and budget goals — 
+      designed with privacy in mind.
+    </p>
+    <div class="info-box">
+      <strong>Key principle:</strong> Your financial data (transactions, budgets, accounts) is stored 
+      locally on your device. We do not upload your financial records to our servers.
+    </div>
+    <p>
+      By using WealthWisp, you agree to the collection and use of information as described in
+      this policy. If you disagree with any part, please discontinue use of the App.
+    </p>
+  </div>
+
+  <!-- 2. Data Collected -->
+  <div class="card" id="data-collected">
+    <h2><span class="icon">📊</span> 2. Data We Collect</h2>
+
+    <h3>2.1 Data You Provide</h3>
+    <ul>
+      <li><strong>Financial Data:</strong> The income, expenses, accounts, and budgets you enter are stored locally in the App's database on your device.</li>
+      <li><strong>App Preferences:</strong> Settings such as currency, language, and theme choices are stored locally.</li>
+    </ul>
+
+    <h3>2.2 Data Collected Automatically</h3>
+    <ul>
+      <li><strong>Crash Reports:</strong> If the App crashes, Firebase Crashlytics collects crash stack traces and device info (OS version, device model) to help us fix bugs.</li>
+      <li><strong>Analytics Events:</strong> Firebase Analytics collects anonymized usage events (e.g., app launches, screen views) to help us improve the App's features.</li>
+      <li><strong>Ad Identifiers:</strong> Google AdMob may collect your advertising ID to serve personalized or non-personalized ads, subject to your consent.</li>
+      <li><strong>Device Information:</strong> Approximate device type, OS version, language, and timezone — collected by Firebase and AdMob for analytics and ad delivery.</li>
+    </ul>
+
+    <h3>2.3 Data We Do NOT Collect</h3>
+    <ul>
+      <li>We do <strong>not</strong> collect or upload your financial transaction history to our servers.</li>
+      <li>We do <strong>not</strong> require you to create an account, so we do <strong>not</strong> collect your name, email, or passwords.</li>
+      <li>We do <strong>not</strong> collect your bank account details or credit card numbers.</li>
+      <li>We do <strong>not</strong> sell your personal data to any third party.</li>
+    </ul>
+  </div>
+
+  <!-- 3. How We Use -->
+  <div class="card" id="how-we-use">
+    <h2><span class="icon">⚙️</span> 3. How We Use Your Data</h2>
+    <ul>
+      <li>To provide and improve App functionality (tracking finances and generating reports).</li>
+      <li>To diagnose and fix crashes using Firebase Crashlytics.</li>
+      <li>To understand user engagement patterns using Firebase Analytics.</li>
+      <li>To display advertisements through Google AdMob.</li>
+    </ul>
+    <div class="info-box">
+      All financial tracking, categorization, and report generation happens
+      100% on-device.
+    </div>
+  </div>
+
+  <!-- 4. Third-Party Services -->
+  <div class="card" id="third-party">
+    <h2><span class="icon">🔗</span> 4. Third-Party Services</h2>
+    <p>
+      WealthWisp integrates the following third-party services. Each service has its own privacy
+      policy and data practices that are independent of WealthWisp.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Purpose</th>
+          <th>Data Collected</th>
+          <th>Privacy Policy</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Google AdMob</strong></td>
+          <td>Displaying advertisements</td>
+          <td>Advertising ID, IP address, device info, interaction data</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
+        </tr>
+        <tr>
+          <td><strong>Firebase Analytics</strong></td>
+          <td>App usage analytics</td>
+          <td>Anonymized usage events, device info, app version</td>
+          <td><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a></td>
+        </tr>
+        <tr>
+          <td><strong>Firebase Crashlytics</strong></td>
+          <td>Crash reporting &amp; stability</td>
+          <td>Crash stack traces, device model, OS version</td>
+          <td><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a></td>
+        </tr>
+        <tr>
+          <td><strong>Google Play Billing</strong></td>
+          <td>In-app purchases</td>
+          <td>Purchase tokens handled entirely by Google Play</td>
+          <td><a href="https://play.google.com/about/play-terms/" target="_blank">Play Terms</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="warn-box">
+      <strong>Ad Personalization:</strong> For users in the European Economic Area (EEA),
+      United Kingdom, or Switzerland, we request your consent before serving personalized ads
+      through the Google UMP consent form. You may opt out at any time via your device's ad settings.
+    </div>
+  </div>
+
+  <!-- 5. Permissions -->
+  <div class="card" id="permissions">
+    <h2><span class="icon">🔒</span> 5. App Permissions</h2>
+    <table>
+      <thead>
+        <tr><th>Permission</th><th>Why It's Needed</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>INTERNET</strong></td>
+          <td>Required for loading advertisements and sending analytics/crash data.</td>
+        </tr>
+        <tr>
+          <td><strong>ACCESS_NETWORK_STATE</strong></td>
+          <td>Required to check if the device is connected to the internet before fetching ads or updates.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>All permissions are standard and can be managed from your device Settings.</p>
+  </div>
+
+  <!-- 6. Data Sharing -->
+  <div class="card" id="data-sharing">
+    <h2><span class="icon">🤝</span> 6. Data Sharing &amp; Disclosure</h2>
+    <p>We do not sell, trade, or rent your personal information. We may share data only in the following limited circumstances:</p>
+    <ul>
+      <li><strong>Third-party service providers:</strong> Google (AdMob, Firebase) as described above, solely to operate the App.</li>
+      <li><strong>Legal requirements:</strong> If required by law, court order, or governmental authority.</li>
+      <li><strong>Business transfers:</strong> In the event of a merger, acquisition, or sale of assets, user data may be transferred as a business asset.</li>
+    </ul>
+  </div>
+
+  <!-- 7. Retention -->
+  <div class="card" id="retention">
+    <h2><span class="icon">🗂️</span> 7. Data Retention</h2>
+    <ul>
+      <li><strong>Financial Data:</strong> Stored on your device until you delete the data within the App or uninstall the App.</li>
+      <li><strong>App preferences:</strong> Stored locally on your device via Android DataStore.</li>
+      <li><strong>Crash reports (Crashlytics):</strong> Retained by Firebase for 90 days.</li>
+      <li><strong>Analytics data (Firebase):</strong> Retained for up to 14 months, then automatically deleted.</li>
+      <li><strong>Ad data (AdMob):</strong> Subject to Google's retention policies.</li>
+    </ul>
+  </div>
+
+  <!-- 8. GDPR -->
+  <div class="card" id="gdpr">
+    <h2><span class="icon">🇪🇺</span> 8. Your Rights Under GDPR</h2>
+    <p>
+      If you are located in the European Economic Area (EEA), United Kingdom, or Switzerland,
+      you have the following rights under the General Data Protection Regulation (GDPR):
+    </p>
+    <div class="rights-grid">
+      <div class="right-item">
+        <div class="r-icon">👁️</div>
+        <strong>Right of Access</strong>
+        <span>Request a copy of the data we hold about you.</span>
+      </div>
+      <div class="right-item">
+        <div class="r-icon">✏️</div>
+        <strong>Right to Rectification</strong>
+        <span>Request correction of inaccurate data.</span>
+      </div>
+      <div class="right-item">
+        <div class="r-icon">🗑️</div>
+        <strong>Right to Erasure</strong>
+        <span>Request deletion of your personal data ("right to be forgotten").</span>
+      </div>
+      <div class="right-item">
+        <div class="r-icon">⏸️</div>
+        <strong>Right to Restriction</strong>
+        <span>Request restriction of processing of your data.</span>
+      </div>
+      <div class="right-item">
+        <div class="r-icon">📦</div>
+        <strong>Right to Portability</strong>
+        <span>Receive your data in a portable format.</span>
+      </div>
+      <div class="right-item">
+        <div class="r-icon">🚫</div>
+        <strong>Right to Object</strong>
+        <span>Object to processing for direct marketing or profiling.</span>
+      </div>
+      <div class="right-item">
+        <div class="r-icon">↩️</div>
+        <strong>Withdraw Consent</strong>
+        <span>Withdraw ad personalization consent at any time.</span>
+      </div>
+      <div class="right-item">
+        <div class="r-icon">⚖️</div>
+        <strong>Lodge a Complaint</strong>
+        <span>File a complaint with your local data protection authority.</span>
+      </div>
+    </div>
+    <p>
+      To exercise any of these rights, please contact us at
+      <strong>namokshadigital@gmail.com</strong>. We will respond within 30 days.
+    </p>
+  </div>
+
+  <!-- 9. CCPA -->
+  <div class="card" id="ccpa">
+    <h2><span class="icon">🇺🇸</span> 9. California Privacy Rights (CCPA)</h2>
+    <p>
+      If you are a California resident, the California Consumer Privacy Act (CCPA) grants you
+      additional rights regarding your personal information:
+    </p>
+    <ul>
+      <li><strong>Right to Know:</strong> You may request disclosure of the categories and specific pieces of personal information we have collected about you.</li>
+      <li><strong>Right to Delete:</strong> You may request deletion of personal information we have collected, subject to certain exceptions.</li>
+      <li><strong>Right to Opt-Out:</strong> You may opt out of the sale of personal information. <em>We do not sell personal information.</em></li>
+      <li><strong>Right to Non-Discrimination:</strong> We will not discriminate against you for exercising your CCPA rights.</li>
+    </ul>
+    <p>To submit a CCPA request, contact us at <strong>namokshadigital@gmail.com</strong>.</p>
+  </div>
+
+  <!-- 10. Children -->
+  <div class="card" id="children">
+    <h2><span class="icon">👶</span> 10. Children's Privacy</h2>
+    <p>
+      WealthWisp is not directed to children under the age of 13 (or under 16 in the EEA).
+      We do not knowingly collect personal information from children. If you believe a child
+      has provided personal information through our App, please contact us immediately at
+      <strong>namokshadigital@gmail.com</strong> and we will take steps to delete such information.
+    </p>
+  </div>
+
+  <!-- 11. Security -->
+  <div class="card" id="security">
+    <h2><span class="icon">🛡️</span> 11. Data Security</h2>
+    <p>
+      We implement commercially reasonable technical and organizational measures to protect
+      your information. All financial processing is performed locally on your device. Analytics
+      and crash data transmitted to Firebase is encrypted in transit using TLS.
+    </p>
+    <p>
+      However, no method of transmission over the Internet or electronic storage is 100%
+      secure. We cannot guarantee absolute security of your data.
+    </p>
+  </div>
+
+  <!-- 12. Terms -->
+  <div class="card" id="terms">
+    <h2><span class="icon">📜</span> 12. Terms of Use</h2>
+
+    <h3>12.1 Acceptance</h3>
+    <p>By downloading or using WealthWisp, you agree to be bound by these Terms of Use. If you do not agree, do not use the App.</p>
+
+    <h3>12.2 License</h3>
+    <p>
+      We grant you a limited, non-exclusive, non-transferable, revocable license to use
+      WealthWisp on your Android device solely for your personal, non-commercial use.
+    </p>
+
+    <h3>12.3 Prohibited Uses</h3>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Reverse engineer, decompile, or disassemble the App.</li>
+      <li>Use the App for any unlawful purpose or in violation of any applicable laws.</li>
+      <li>Attempt to circumvent any security measures or access controls.</li>
+      <li>Remove or alter any copyright, trademark, or proprietary notices.</li>
+    </ul>
+
+    <h3>12.4 Intellectual Property</h3>
+    <p>
+      All content, features, and functionality of WealthWisp — including design, graphics, and
+      source code — are owned by Namoksha Digital and are protected by applicable intellectual
+      property laws.
+    </p>
+
+    <h3>12.5 Disclaimer of Warranties</h3>
+    <p>
+      The App is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any
+      kind, express or implied. We do not warrant that the App will be uninterrupted, secure,
+      or error-free. WealthWisp does not provide professional financial, legal, or tax advice.
+    </p>
+
+    <h3>12.6 Limitation of Liability</h3>
+    <p>
+      To the fullest extent permitted by law, Namoksha Digital shall not be liable for any
+      indirect, incidental, special, consequential, or punitive damages arising from your
+      use of the App, including loss of data or financial records.
+    </p>
+
+    <h3>12.7 Governing Law</h3>
+    <p>
+      These Terms are governed by the laws of India. Any disputes shall be subject to the
+      exclusive jurisdiction of the courts of India.
+    </p>
+
+    <h3>12.8 In-App Purchases</h3>
+    <p>
+      Any in-app purchases are processed by Google Play. All purchases are subject to
+      Google Play's Terms of Service. All fees are non-refundable unless required by
+      applicable law.
+    </p>
+
+    <h3>12.9 Advertisements</h3>
+    <p>
+      The free version of WealthWisp is supported by advertisements served by Google AdMob.
+    </p>
+  </div>
+
+  <!-- 13. Changes -->
+  <div class="card" id="changes">
+    <h2><span class="icon">🔄</span> 13. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy and Terms of Use from time to time. When we make
+      material changes, we will update the "Last updated" date at the top of this page.
+      Continued use of the App after any changes constitutes acceptance of the updated policy.
+    </p>
+    <p>We encourage you to review this page periodically to stay informed of any updates.</p>
+  </div>
+
+  <!-- 14. Contact -->
+  <div class="card" id="contact">
+    <h2><span class="icon">✉️</span> 14. Contact Us</h2>
+    <p>
+      If you have any questions, concerns, or requests regarding this Privacy Policy,
+      Terms of Use, or your data rights, please contact us:
+    </p>
+    <ul>
+      <li><strong>Developer:</strong> Namoksha Digital</li>
+      <li><strong>Email:</strong> <a href="mailto:namokshadigital@gmail.com">namokshadigital@gmail.com</a></li>
+      <li><strong>App:</strong> WealthWisp — Personal Finance Tracker</li>
+      <li><strong>Package:</strong> com.rn.namoksha.wealthwisp</li>
+      <li><strong>Google Play Store:</strong> <a href="https://play.google.com/store/apps/details?id=com.rn.namoksha.wealthwisp" target="_blank" rel="noopener">WealthWisp on Google Play</a></li>
+      <li><strong>Developer Profile:</strong> <a href="https://play.google.com/store/apps/developer?id=Namoksha+Digital" target="_blank" rel="noopener">Namoksha Digital on Google Play</a></li>
+    </ul>
+    <div class="info-box">
+      We aim to respond to all privacy-related requests within <strong>30 days</strong>.
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 Namoksha Digital · WealthWisp · All rights reserved.</p>
+  <p style="margin-top:6px;">
+    <a href="#overview">Privacy Policy</a> ·
+    <a href="#terms">Terms of Use</a> ·
+    <a href="mailto:namokshadigital@gmail.com">Contact</a>
+  </p>
+</footer>
+
+</body>
+</html>
